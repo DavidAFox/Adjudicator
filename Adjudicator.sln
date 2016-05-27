@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Adjudicator", "src\Adjudicator\Adjudicator.xproj", "{3A192C16-C0B0-457F-9BFC-8D93FBA61F53}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E532C1D-1625-4CC9-982E-AE50A3D6BCDE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AdjudicatorTests", "AdjudicatorTests\AdjudicatorTests.xproj", "{C5EF14FC-8430-437A-83EE-1CFBBF217289}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{3A192C16-C0B0-457F-9BFC-8D93FBA61F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A192C16-C0B0-457F-9BFC-8D93FBA61F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A192C16-C0B0-457F-9BFC-8D93FBA61F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EF14FC-8430-437A-83EE-1CFBBF217289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EF14FC-8430-437A-83EE-1CFBBF217289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EF14FC-8430-437A-83EE-1CFBBF217289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EF14FC-8430-437A-83EE-1CFBBF217289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3A192C16-C0B0-457F-9BFC-8D93FBA61F53} = {FC3BFC48-87E5-4DD5-B446-F47788EF581F}
+		{C5EF14FC-8430-437A-83EE-1CFBBF217289} = {4E532C1D-1625-4CC9-982E-AE50A3D6BCDE}
 	EndGlobalSection
 EndGlobal
